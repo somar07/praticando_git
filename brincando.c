@@ -1,6 +1,10 @@
 #include<stdio.h>
 int main(){
-    printf("Hello word");
+    int x,y,soma;
+
+    scanf("%d %d",&x,&y);
+    soma = x+y;
+    printf("%d\n",soma);
 
     return 0;
 }
