@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main(){
-    int x,y,soma;
+    int a,y,soma;
 
-    scanf("%d %d",&x,&y);
-    soma = x+y;
+    scanf("%d %d",&a,&y);
+    soma = a+y;
     printf("%d\n",soma);
 
     return 0;
